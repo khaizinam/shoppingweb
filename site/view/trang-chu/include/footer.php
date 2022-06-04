@@ -23,7 +23,8 @@
         <span>mySQL - </span>
         <span>May 2022</span>
     </div>
-    <script src="../../../public/js/productPage.js"></script>
+    <script src="<?php echo auto_version('../../../public/js/productPage.js'); ?>"></script>
+    <script src="<?php echo auto_version('../../../public/js/reloadcss.js'); ?>"></script>
 </body>
 
 </html>

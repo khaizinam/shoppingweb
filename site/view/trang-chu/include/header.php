@@ -1,4 +1,5 @@
 <?php
+    include "../../../system/lib/reloadLink.php";
     include "../../../system/lib/config.php";
     include "../../../system/lib/conn.php";
     $db = new DataBase();
